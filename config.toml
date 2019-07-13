@@ -23,28 +23,28 @@ disablePathToLower = true
 
 [[menu.main]]
   name = "About Docs"
-  weight = 1
+  weight = 100
   identifier = "about"
   url = "/home/latest/index.html"
   parent = "docs"
 
 [[menu.main]]
   name = "Syndesis"
-  weight = 1
+  weight = 2
   identifier = "syndesis"
   url = "/syndesis/latest/index.html"
   parent = "docs"
 
 [[menu.main]]
   name = "EnMasse"
-  weight = 1
+  weight = 2
   identifier = "enmasse"
   url = "/enmasse/latest/master-openshift.html"
   parent = "docs"
 
 [[menu.main]]
   name = "AeroGear"
-  weight = 2
+  weight = 3
   identifier = "aerogear"
   url = "/aerogear/latest/getting-started.html"
   parent = "docs"
@@ -52,7 +52,7 @@ disablePathToLower = true
 
 [[menu.main]]
   name = "Getting Started"
-  weight = 2
+  weight = 1
   identifier = "gs"
   url = "/integreatly/latest/getting-started.html"
   parent = "docs"
@@ -60,7 +60,7 @@ disablePathToLower = true
 
 [[menu.main]]
   name = "Release Notes"
-  weight = 2
+  weight = 1
   identifier = "rn"
   url = "/integreatly/latest/release-notes.html"
   parent = "docs"
