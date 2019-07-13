@@ -1,5 +1,5 @@
-name: integreatly
+name: home
 title: Integreatly
-start_page: docs::getting-started.adoc
+start_page: home::index.adoc
 nav:
  - modules/ROOT/nav.adoc 
