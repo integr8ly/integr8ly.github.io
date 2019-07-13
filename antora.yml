@@ -1,5 +1,6 @@
 name: home
 title: Integreatly
-start_page: home::index.adoc
+version: 'latest'
+start_ROOT: ROOT::index.adoc
 nav:
  - modules/ROOT/nav.adoc 

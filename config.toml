@@ -19,28 +19,53 @@ disablePathToLower = true
   name = "Docs"
   weight = 2
   identifier = "docs"
-  url = "/docs/getting-started.html"
+  url = "/home/latest/index.html"
 
 [[menu.main]]
-  name = "Getting started"
+  name = "About Docs"
   weight = 1
-  identifier = "getting_started"
-  url = "/docs/getting-started.html"
+  identifier = "about"
+  url = "/home/latest/index.html"
   parent = "docs"
+
+[[menu.main]]
+  name = "Syndesis"
+  weight = 1
+  identifier = "syndesis"
+  url = "/syndesis/latest/index.html"
+  parent = "docs"
+
+[[menu.main]]
+  name = "EnMasse"
+  weight = 1
+  identifier = "enmasse"
+  url = "/enmasse/latest/master-openshift.html"
+  parent = "docs"
+
+[[menu.main]]
+  name = "AeroGear"
+  weight = 2
+  identifier = "aerogear"
+  url = "/aerogear/latest/getting-started.html"
+  parent = "docs"
+
+
+[[menu.main]]
+  name = "Getting Started"
+  weight = 2
+  identifier = "gs"
+  url = "/integreatly/latest/getting-started.html"
+  parent = "docs"
+
 
 [[menu.main]]
   name = "Release Notes"
   weight = 2
-  identifier = "release_notes"
-  url = "/docs/release-notes.html"
+  identifier = "rn"
+  url = "/integreatly/latest/release-notes.html"
   parent = "docs"
 
-[[menu.main]]
-  name = "Solution Patterns"
-  weight = 3
-  identifier = "walkthroughs"
-  url = "/docs/walkthroughs.html"
-  parent = "docs"
+
 
 [[menu.main]]
   name = "Community"
