@@ -1,0 +1,6 @@
+include::_partials/attributes.adoc[]
+
+:context:
+
+= Integreatly Docs
+

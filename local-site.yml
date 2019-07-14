@@ -1,0 +1,29 @@
+site:
+  title: Integreatly Docs
+  start_page: home::index
+
+content:
+  sources:
+    - url: .
+      branches: HEAD
+    - url: ../user-documentation
+      branches: HEAD
+    - url: ../../../repos/aerogear/docs/mobile-docs/
+      branches: HEAD
+    - url: ../community/repos/enmasse/
+      start_path: documentation
+      branches: HEAD
+    - url: ../community/repos/syndesis/
+      start_path: doc
+      branches: HEAD
+
+
+ui:
+  bundle:
+    url: ./i8y-ui-bundle/build/ui-bundle.zip
+
+urls:
+  redirect_facility: disabled
+
+output:
+  dir: ./static
