@@ -53,7 +53,7 @@
   flex: 100%;
 }
 
-a.btn {
+a.try-button {
   background: var(--color-tertiary);
   border: none;
   border-radius: 3px;
@@ -67,7 +67,7 @@ a.btn {
   box-shadow: 0 0 7px -2px rgba(0, 0, 0, 0.7);
 }
 
-a.btn:hover {
+a.try-button:hover {
   color: var(--color-light-shade);
   background: var(--color-tertiary-shade);
 }
@@ -107,6 +107,7 @@ a.btn:hover {
 
 .home #start {
   margin: 0 auto;
+  padding: 2rem 0 0 0;
   text-align: center;
 }
 
@@ -131,9 +132,8 @@ a.btn:hover {
 }
 
 .home .doc,
-.home .list,
-.page {
-  padding: 2rem 1rem 4em;
+.home .list {
+  padding: 2rem 1rem 2em;
 }
 
 .home .list {
@@ -142,11 +142,6 @@ a.btn:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.page {
-  width: 60%;
-  margin: 0 auto;
 }
 
 /* Helpers for different feature cards with nice icons */
@@ -160,10 +155,22 @@ a.btn:hover {
 .feat {
   background-repeat: no-repeat;
   background-size: auto 100%;
-  margin: 4em auto 1em;
-  padding-left: 35%;
+  margin: 0 auto 1em auto;
   width: 80%;
   text-align: left;
+}
+
+.feat-left {
+  padding-left: 35%;
+}
+
+.feat-right {
+  padding-right: 35%;
+  background-position: right;
+}
+
+.stack {
+  margin-top: 6rem; /* use if there is more than one block */
 }
 
 .solution {
@@ -181,8 +188,14 @@ a.btn:hover {
 @media (max-width: 1024px) {
   .feat {
     background-size: 100% auto;
-    padding-left: 0;
     padding-top: 100%;
+  }
+
+  .feat-left { padding-left: 0; }
+
+  .feat-right {
+    padding-right: 0;
+    background-position: top;
   }
 }
 
